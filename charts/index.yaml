@@ -3,7 +3,17 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-12T12:02:42.15183-03:00"
+    created: "2022-09-22T14:57:53.81957-03:00"
+    description: Deployment nginx
+    digest: 90c8f88241ade9a8550b6ce03ab969b630bbd1612e0eaf6ee5ed3779b6f30912
+    name: nginx
+    type: application
+    urls:
+    - nginx-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-09-22T14:57:53.818551-03:00"
     description: Deployment nginx
     digest: 1fc8a578d4e764bc2633930b0120089533eef3338434785e3c3b649a64883f2a
     name: nginx
@@ -11,4 +21,4 @@ entries:
     urls:
     - nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-12T12:02:42.149661-03:00"
+generated: "2022-09-22T14:57:53.794772-03:00"
