@@ -3,3 +3,8 @@ replicas: 1
 image:
   repository: value
   tag: "value"
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 80
